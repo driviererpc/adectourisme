@@ -70,7 +70,7 @@
     var countEl = document.getElementById("metiers-count");
     var emptyEl = document.getElementById("metiers-empty");
 
-    loadJSON("data/metiers.json")
+    loadJSON("/api/metiers")
       .then(function (metiers) {
         function render() {
           var query = (searchInput.value || "").toLowerCase().trim();
@@ -184,7 +184,7 @@
     var params = new URLSearchParams(window.location.search);
     var metierIdFilter = params.get("metierId");
 
-    Promise.all([loadJSON("data/formations.json"), loadJSON("data/metiers.json")]).then(function (results) {
+    Promise.all([loadJSON("/api/formations"), loadJSON("/api/metiers")]).then(function (results) {
       var formations = results[0];
       var metiers = results[1];
       var relatedMetier = metierIdFilter
@@ -260,7 +260,7 @@
       "charge-developpement-touristique"
     ];
 
-    loadJSON("data/metiers.json")
+    loadJSON("/api/metiers")
       .then(function (metiers) {
         var featured = featuredIds
           .map(function (id) {
@@ -288,16 +288,50 @@
       });
   }
 
-  /* ================= FORMULAIRE CONTACT (démonstration) ================= */
+  /* ================= FORMULAIRE CONTACT ================= */
   function initContactForm() {
     var form = document.getElementById("contact-form");
     if (!form) return;
     var confirmation = document.getElementById("contact-confirmation");
+    var errorEl = document.getElementById("contact-error");
+    var submitBtn = form.querySelector("button[type=submit]");
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      form.style.display = "none";
-      if (confirmation) confirmation.style.display = "block";
+      if (errorEl) errorEl.style.display = "none";
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Envoi en cours...";
+
+      var payload = {
+        nom: document.getElementById("contact-nom").value,
+        email: document.getElementById("contact-email").value,
+        profil: document.getElementById("contact-profil").value,
+        message: document.getElementById("contact-message").value
+      };
+
+      fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      })
+        .then(function (res) {
+          if (!res.ok) return res.json().then(function (body) { throw new Error(body.error || "Erreur d'envoi"); });
+          return res.json();
+        })
+        .then(function () {
+          form.style.display = "none";
+          if (confirmation) confirmation.style.display = "block";
+        })
+        .catch(function (err) {
+          if (errorEl) {
+            errorEl.textContent = err.message || "Une erreur est survenue. Merci de réessayer.";
+            errorEl.style.display = "block";
+          }
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Envoyer le message";
+        });
     });
   }
 

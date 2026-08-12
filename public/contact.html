@@ -70,17 +70,18 @@
             <label for="contact-message">Votre message</label>
             <textarea id="contact-message" name="message" required></textarea>
           </div>
+          <p class="disclaimer" id="contact-error" style="display:none;"></p>
           <button type="submit" class="btn btn-accent">Envoyer le message</button>
           <p class="form-note">
-            Formulaire de démonstration : les messages ne sont pas encore transmis à une adresse
-            e-mail réelle. Une intégration avec les outils de Réunion Prospective Compétences
-            sera nécessaire avant la mise en production.
+            Votre message est enregistré par le serveur du portail. Un circuit de notification
+            par e-mail vers l'équipe de Réunion Prospective Compétences reste à brancher avant la
+            mise en production définitive.
           </p>
         </form>
 
         <div class="form-card" id="contact-confirmation" style="display:none;">
           <h2>Merci pour votre message !</h2>
-          <p>Ceci est une démonstration : aucun message n'a réellement été envoyé. Une messagerie de contact fonctionnelle sera mise en place lors de la mise en production du portail.</p>
+          <p>Votre message a bien été reçu par le serveur du portail. Notre équipe vous répondra dès que possible.</p>
           <a class="btn btn-primary" href="index.html">Retour à l'accueil</a>
         </div>
       </div>

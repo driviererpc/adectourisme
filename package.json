@@ -1,0 +1,14 @@
+{
+  "name": "reunion-tourisme-metiers-formations",
+  "version": "1.0.0",
+  "description": "Portail des métiers et formations du tourisme à La Réunion — Réunion Prospective Compétences",
+  "private": true,
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
