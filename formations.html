@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formations tourisme à La Réunion | Réunion Tourisme</title>
+  <meta name="description" content="Catalogue des formations du secteur touristique à La Réunion : CAP, Bac Pro, BTS, licences, BPJEPS et formations continues." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+  <div class="info-banner">
+    Portail porté par Réunion Prospective Compétences — contenu en cours d'enrichissement avec les données de l'observatoire régional.
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">RT</span>
+        <span>
+          Réunion Tourisme — Métiers &amp; Formations
+          <span class="brand-text-small">Un projet Réunion Prospective Compétences</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="metiers.html">Métiers</a>
+        <a href="formations.html" aria-current="page">Formations</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">Se former</span>
+        <h1>Les formations du tourisme à La Réunion</h1>
+        <p>Du CAP au Master, en passant par les diplômes d'État et les formations continues : trouvez le parcours de formation adapté à votre projet professionnel.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="disclaimer" id="formations-notice" style="display:none;"></div>
+
+        <div class="filters">
+          <input type="search" id="formations-search" placeholder="Rechercher une formation..." aria-label="Rechercher une formation" />
+          <select id="formations-niveau" aria-label="Filtrer par niveau">
+            <option value="">Tous les niveaux</option>
+            <option value="cap">CAP</option>
+            <option value="mention-complementaire">Mention complémentaire</option>
+            <option value="bac-pro">Bac Professionnel</option>
+            <option value="titre-professionnel">Titre professionnel</option>
+            <option value="bts">BTS</option>
+            <option value="licence-pro">Licence professionnelle</option>
+            <option value="master">Master</option>
+            <option value="bpjeps">BPJEPS (Diplôme d'État)</option>
+            <option value="formation-continue">Formation continue courte</option>
+          </select>
+          <select id="formations-domaine" aria-label="Filtrer par domaine">
+            <option value="">Tous les domaines</option>
+            <option value="restauration">Restauration</option>
+            <option value="hebergement">Hébergement</option>
+            <option value="hebergement-restauration">Hébergement &amp; restauration</option>
+            <option value="agences-gestion">Agences, gestion &amp; développement</option>
+            <option value="activites-nature">Activités de pleine nature</option>
+            <option value="evenementiel-animation">Événementiel &amp; animation</option>
+            <option value="transversal">Transversal / multi-secteurs</option>
+          </select>
+        </div>
+
+        <p class="results-count" id="formations-count"></p>
+
+        <div class="grid grid-3" id="formations-grid"></div>
+        <div class="empty-state" id="formations-empty" style="display:none;">
+          Aucune formation ne correspond à votre recherche. Essayez d'autres critères.
+        </div>
+
+        <div class="disclaimer">
+          Les établissements mentionnés sont donnés à titre indicatif. Pour connaître l'offre de formation
+          en vigueur, les conditions d'admission et les modalités de financement, consultez le CARIF-OREF
+          Réunion, Parcoursup, l'Onisep ou contactez directement les organismes concernés.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Réunion Tourisme — Métiers &amp; Formations</h4>
+          <p>Un portail porté par Réunion Prospective Compétences (RPC) pour valoriser les métiers et les formations du secteur touristique à La Réunion.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="metiers.html">Métiers</a></li>
+            <li><a href="formations.html">Formations</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ressources</h4>
+          <ul>
+            <li><a href="https://www.letourisme-i-recrute.re" rel="noopener">Le tourisme recrute à La Réunion</a></li>
+            <li><a href="https://www.francetravail.fr" rel="noopener">France Travail</a></li>
+            <li><a href="https://www.onisep.fr" rel="noopener">Onisep</a></li>
+            <li><a href="https://www.reunion.fr" rel="noopener">Région Réunion</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Réunion Prospective Compétences. Tous droits réservés.</span>
+        <span>Contenu de démonstration — données à valider et actualiser.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "cap-cuisine",
+    "titre": "CAP Cuisine",
+    "niveau": "cap",
+    "domaine": "restauration",
+    "duree": "2 ans",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Formation de référence pour l'entrée dans le métier de cuisinier : techniques culinaires de base, hygiène alimentaire, organisation du poste de travail.",
+    "etablissementsIndicatifs": ["Lycées des métiers de l'hôtellerie et de la restauration de La Réunion", "CFA de La Réunion"]
+  },
+  {
+    "id": "cap-commercialisation-services-htr",
+    "titre": "CAP Commercialisation et services en hôtel-café-restaurant",
+    "niveau": "cap",
+    "domaine": "restauration",
+    "duree": "2 ans",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Prépare aux métiers du service en salle : accueil, prise de commande, service, encaissement.",
+    "etablissementsIndicatifs": ["Lycées des métiers de l'hôtellerie et de la restauration de La Réunion"]
+  },
+  {
+    "id": "bac-pro-cuisine",
+    "titre": "Bac Professionnel Cuisine",
+    "niveau": "bac-pro",
+    "domaine": "restauration",
+    "duree": "3 ans",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Approfondit les techniques culinaires et la gestion d'une brigade, avec une ouverture sur la valorisation des produits locaux.",
+    "etablissementsIndicatifs": ["Lycées des métiers de l'hôtellerie et de la restauration de La Réunion"]
+  },
+  {
+    "id": "bac-pro-commercialisation-services-htr",
+    "titre": "Bac Professionnel Commercialisation et services en restauration",
+    "niveau": "bac-pro",
+    "domaine": "hebergement-restauration",
+    "duree": "3 ans",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Forme aux fonctions d'accueil, de vente et de management d'une équipe en restauration et hébergement.",
+    "etablissementsIndicatifs": ["Lycées des métiers de l'hôtellerie et de la restauration de La Réunion"]
+  },
+  {
+    "id": "mc-cuisine-produits-terroir",
+    "titre": "Mention complémentaire Cuisinier en desserts de restaurant / produits du terroir",
+    "niveau": "mention-complementaire",
+    "domaine": "restauration",
+    "duree": "1 an",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Spécialisation post-CAP/Bac Pro permettant de développer une expertise sur la valorisation des produits et savoir-faire locaux.",
+    "etablissementsIndicatifs": ["Lycées des métiers de l'hôtellerie de La Réunion"]
+  },
+  {
+    "id": "mc-sommellerie",
+    "titre": "Mention complémentaire Sommellerie",
+    "niveau": "mention-complementaire",
+    "domaine": "restauration",
+    "duree": "1 an",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Spécialisation aux métiers de la sommellerie : connaissance des vins, service et conseil client.",
+    "etablissementsIndicatifs": ["Établissements partenaires métropole/académie de La Réunion selon les années"]
+  },
+  {
+    "id": "titre-pro-receptionniste",
+    "titre": "Titre professionnel Réceptionniste en hôtellerie",
+    "niveau": "titre-professionnel",
+    "domaine": "hebergement",
+    "duree": "6 à 9 mois",
+    "modalite": "Formation continue ou en alternance",
+    "description": "Certification professionnelle permettant d'accéder rapidement au métier de réceptionniste, accessible via la formation continue et l'alternance.",
+    "etablissementsIndicatifs": ["Organismes de formation continue habilités à La Réunion (à vérifier auprès du CARIF-OREF Réunion)"]
+  },
+  {
+    "id": "bts-tourisme",
+    "titre": "BTS Tourisme",
+    "niveau": "bts",
+    "domaine": "agences-gestion",
+    "duree": "2 ans",
+    "modalite": "Formation initiale ou apprentissage",
+    "description": "Forme aux métiers de la commercialisation de prestations touristiques, de l'accueil et de l'information touristique, en agence de voyages, office de tourisme ou hébergement.",
+    "etablissementsIndicatifs": ["Lycées et établissements d'enseignement supérieur proposant le BTS Tourisme à La Réunion"]
+  },
+  {
+    "id": "licence-pro-tourisme",
+    "titre": "Licence professionnelle Tourisme",
+    "niveau": "licence-pro",
+    "domaine": "agences-gestion",
+    "duree": "1 an après un Bac+2",
+    "modalite": "Formation initiale ou en alternance",
+    "description": "Spécialise les diplômés Bac+2 vers des fonctions de conception de produits touristiques, de développement territorial ou de gestion d'établissement.",
+    "etablissementsIndicatifs": ["Université de La Réunion et partenaires (à confirmer selon l'offre de formation en vigueur)"]
+  },
+  {
+    "id": "master-tourisme",
+    "titre": "Master Tourisme (mentions développement, marketing, gestion des destinations)",
+    "niveau": "master",
+    "domaine": "agences-gestion",
+    "duree": "2 ans après une Licence",
+    "modalite": "Formation initiale ou en alternance",
+    "description": "Prépare aux fonctions d'encadrement et de direction dans le tourisme : développement territorial, marketing de destination, gestion de projets.",
+    "etablissementsIndicatifs": ["Université de La Réunion et écoles partenaires (à confirmer selon l'offre de formation en vigueur)"]
+  },
+  {
+    "id": "bpjeps-randonnee",
+    "titre": "BPJEPS spécialité randonnée",
+    "niveau": "bpjeps",
+    "domaine": "activites-nature",
+    "duree": "environ 1 an",
+    "modalite": "Formation continue ou en alternance",
+    "description": "Diplôme d'État permettant d'encadrer des activités de randonnée pédestre et de moyenne montagne à titre professionnel.",
+    "etablissementsIndicatifs": ["Organismes habilités par la DRAJES / Direction régionale à La Réunion (à vérifier)"]
+  },
+  {
+    "id": "bpjeps-canyon",
+    "titre": "BPJEPS spécialité canyon / activités de pleine nature",
+    "niveau": "bpjeps",
+    "domaine": "activites-nature",
+    "duree": "environ 1 an",
+    "modalite": "Formation continue ou en alternance",
+    "description": "Diplôme d'État requis pour encadrer des activités de canyoning et sports de pleine nature en toute sécurité.",
+    "etablissementsIndicatifs": ["Organismes habilités par la DRAJES / Direction régionale à La Réunion (à vérifier)"]
+  },
+  {
+    "id": "bpjeps-nautique",
+    "titre": "BPJEPS spécialités nautiques (plongée, surf, kayak)",
+    "niveau": "bpjeps",
+    "domaine": "activites-nature",
+    "duree": "environ 1 an",
+    "modalite": "Formation continue ou en alternance",
+    "description": "Diplômes d'État par discipline nautique permettant d'enseigner et d'encadrer les activités en milieu aquatique et sous-marin.",
+    "etablissementsIndicatifs": ["Organismes habilités par la DRAJES / fédérations sportives à La Réunion (à vérifier)"]
+  },
+  {
+    "id": "bpjeps-animation",
+    "titre": "BPJEPS spécialité animateur",
+    "niveau": "bpjeps",
+    "domaine": "evenementiel-animation",
+    "duree": "environ 1 an",
+    "modalite": "Formation continue ou en alternance",
+    "description": "Diplôme d'État pour encadrer et animer des activités de loisirs auprès de différents publics, y compris touristiques.",
+    "etablissementsIndicatifs": ["Organismes habilités par la DRAJES à La Réunion (à vérifier)"]
+  },
+  {
+    "id": "titre-pro-accompagnateur",
+    "titre": "Titre professionnel / Diplôme d'accompagnateur de moyenne montagne",
+    "niveau": "titre-professionnel",
+    "domaine": "activites-nature",
+    "duree": "environ 6 à 12 mois",
+    "modalite": "Formation continue",
+    "description": "Certification spécifique permettant d'exercer légalement l'accompagnement de randonnée en moyenne montagne, avec des modules adaptés au contexte volcanique et naturel de La Réunion.",
+    "etablissementsIndicatifs": ["Organismes spécialisés à La Réunion (à vérifier auprès du CARIF-OREF Réunion)"]
+  },
+  {
+    "id": "formation-continue-cci",
+    "titre": "Formations courtes qualifiantes tourisme et hôtellerie-restauration",
+    "niveau": "formation-continue",
+    "domaine": "transversal",
+    "duree": "quelques jours à quelques semaines",
+    "modalite": "Formation continue, financements possibles (CPF, Pôle emploi, Région)",
+    "description": "Modules courts (langues, accueil, vente, digital, hygiène...) destinés aux salariés et demandeurs d'emploi souhaitant se professionnaliser rapidement dans le secteur du tourisme.",
+    "etablissementsIndicatifs": ["CCI Réunion", "GRETA Réunion", "Organismes de formation continue habilités"]
+  }
+]

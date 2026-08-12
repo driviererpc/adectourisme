@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Métiers du tourisme à La Réunion | Réunion Tourisme</title>
+  <meta name="description" content="Parcourez les fiches métiers du secteur touristique à La Réunion : hébergement, restauration, activités de pleine nature, agences de voyage, transport, événementiel, gestion." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+  <div class="info-banner">
+    Portail porté par Réunion Prospective Compétences — contenu en cours d'enrichissement avec les données de l'observatoire régional.
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">RT</span>
+        <span>
+          Réunion Tourisme — Métiers &amp; Formations
+          <span class="brand-text-small">Un projet Réunion Prospective Compétences</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="metiers.html" aria-current="page">Métiers</a>
+        <a href="formations.html">Formations</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">Orientation</span>
+        <h1>Les métiers du tourisme à La Réunion</h1>
+        <p>Explorez les fiches métiers par famille professionnelle et découvrez les compétences, l'environnement de travail et les évolutions possibles de chacun.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="filters">
+          <input type="search" id="metiers-search" placeholder="Rechercher un métier (ex. cuisinier, guide, réceptionniste...)" aria-label="Rechercher un métier" />
+          <select id="metiers-categorie" aria-label="Filtrer par famille de métiers">
+            <option value="">Toutes les familles de métiers</option>
+            <option value="hebergement">Hébergement &amp; hôtellerie</option>
+            <option value="restauration">Restauration</option>
+            <option value="activites">Activités &amp; loisirs nature</option>
+            <option value="agences">Agences de voyage &amp; réceptif</option>
+            <option value="transport">Transport touristique</option>
+            <option value="evenementiel">Événementiel &amp; animation</option>
+            <option value="gestion">Gestion, marketing &amp; développement</option>
+          </select>
+        </div>
+
+        <p class="results-count" id="metiers-count"></p>
+
+        <div class="grid grid-3" id="metiers-grid"></div>
+        <div class="empty-state" id="metiers-empty" style="display:none;">
+          Aucun métier ne correspond à votre recherche. Essayez un autre mot-clé ou une autre famille de métiers.
+        </div>
+
+        <div class="disclaimer">
+          Les fiches métiers présentées ont une visée pédagogique et générale. Elles seront progressivement
+          enrichies et actualisées avec les données de l'observatoire de Réunion Prospective Compétences et
+          des partenaires du secteur (branches professionnelles, France Travail, Onisep).
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Réunion Tourisme — Métiers &amp; Formations</h4>
+          <p>Un portail porté par Réunion Prospective Compétences (RPC) pour valoriser les métiers et les formations du secteur touristique à La Réunion.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="metiers.html">Métiers</a></li>
+            <li><a href="formations.html">Formations</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ressources</h4>
+          <ul>
+            <li><a href="https://www.letourisme-i-recrute.re" rel="noopener">Le tourisme recrute à La Réunion</a></li>
+            <li><a href="https://www.francetravail.fr" rel="noopener">France Travail</a></li>
+            <li><a href="https://www.onisep.fr" rel="noopener">Onisep</a></li>
+            <li><a href="https://www.reunion.fr" rel="noopener">Région Réunion</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Réunion Prospective Compétences. Tous droits réservés.</span>
+        <span>Contenu de démonstration — données à valider et actualiser.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

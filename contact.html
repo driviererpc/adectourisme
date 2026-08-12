@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Réunion Tourisme — Métiers &amp; Formations</title>
+  <meta name="description" content="Contactez Réunion Prospective Compétences au sujet du portail des métiers et formations du tourisme à La Réunion." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+  <div class="info-banner">
+    Portail porté par Réunion Prospective Compétences — contenu en cours d'enrichissement avec les données de l'observatoire régional.
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">RT</span>
+        <span>
+          Réunion Tourisme — Métiers &amp; Formations
+          <span class="brand-text-small">Un projet Réunion Prospective Compétences</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="metiers.html">Métiers</a>
+        <a href="formations.html">Formations</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">Échangeons</span>
+        <h1>Contactez-nous</h1>
+        <p>Une question sur un métier, une formation, ou une donnée à nous transmettre ? Écrivez-nous.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <form class="form-card" id="contact-form">
+          <div class="form-row">
+            <label for="contact-nom">Nom et prénom</label>
+            <input type="text" id="contact-nom" name="nom" required autocomplete="name" />
+          </div>
+          <div class="form-row">
+            <label for="contact-email">Adresse e-mail</label>
+            <input type="email" id="contact-email" name="email" required autocomplete="email" />
+          </div>
+          <div class="form-row">
+            <label for="contact-profil">Vous êtes</label>
+            <select id="contact-profil" name="profil">
+              <option>Élève / étudiant(e)</option>
+              <option>Demandeur / demandeuse d'emploi</option>
+              <option>Salarié(e) en reconversion</option>
+              <option>Employeur du secteur touristique</option>
+              <option>Organisme de formation</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="contact-message">Votre message</label>
+            <textarea id="contact-message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent">Envoyer le message</button>
+          <p class="form-note">
+            Formulaire de démonstration : les messages ne sont pas encore transmis à une adresse
+            e-mail réelle. Une intégration avec les outils de Réunion Prospective Compétences
+            sera nécessaire avant la mise en production.
+          </p>
+        </form>
+
+        <div class="form-card" id="contact-confirmation" style="display:none;">
+          <h2>Merci pour votre message !</h2>
+          <p>Ceci est une démonstration : aucun message n'a réellement été envoyé. Une messagerie de contact fonctionnelle sera mise en place lors de la mise en production du portail.</p>
+          <a class="btn btn-primary" href="index.html">Retour à l'accueil</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Autres ressources</span>
+          <h2>Besoin d'un conseil d'orientation immédiat ?</h2>
+          <p>En attendant l'ouverture d'un canal de contact dédié, ces organismes peuvent vous accompagner :</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>France Travail</h3>
+            <p>Conseil en orientation, offres d'emploi et formations dans le secteur du tourisme.</p>
+            <a class="card-link" href="https://www.francetravail.fr" rel="noopener">francetravail.fr →</a>
+          </div>
+          <div class="card">
+            <h3>Onisep</h3>
+            <p>Information sur les diplômes et parcours de formation initiale.</p>
+            <a class="card-link" href="https://www.onisep.fr" rel="noopener">onisep.fr →</a>
+          </div>
+          <div class="card">
+            <h3>Le tourisme recrute à La Réunion</h3>
+            <p>Campagne de valorisation des métiers du tourisme portée à La Réunion.</p>
+            <a class="card-link" href="https://www.letourisme-i-recrute.re" rel="noopener">letourisme-i-recrute.re →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Réunion Tourisme — Métiers &amp; Formations</h4>
+          <p>Un portail porté par Réunion Prospective Compétences (RPC) pour valoriser les métiers et les formations du secteur touristique à La Réunion.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="metiers.html">Métiers</a></li>
+            <li><a href="formations.html">Formations</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ressources</h4>
+          <ul>
+            <li><a href="https://www.letourisme-i-recrute.re" rel="noopener">Le tourisme recrute à La Réunion</a></li>
+            <li><a href="https://www.francetravail.fr" rel="noopener">France Travail</a></li>
+            <li><a href="https://www.onisep.fr" rel="noopener">Onisep</a></li>
+            <li><a href="https://www.reunion.fr" rel="noopener">Région Réunion</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Réunion Prospective Compétences. Tous droits réservés.</span>
+        <span>Contenu de démonstration — données à valider et actualiser.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
